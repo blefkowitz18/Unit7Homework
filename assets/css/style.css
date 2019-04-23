@@ -10,10 +10,13 @@
 
 .table-responsive {
     border: solid black 3px;
+    margin-bottom: 1%;
 }
 
-.headingFour {
+.headingThree {
     color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .tableHead {
