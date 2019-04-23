@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <title>Train Schedule</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+</head>
+
+<body class = "background">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <h1 class="display-4">Page Header</h1>
+                    <p class="lead">Find your train or add it to the schedule!</p>
+                </div>
+            </div>
+        </div>
+        <div class ="row">
+            <div class = "col-12">
+                <h4 class="headingFour"> Current Train Schedule</h4>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr class="tableHead">
+                                <th scope="col">Train Name</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Frequency (min)</th>
+                                <th score="col">Next Arrival</th>
+                                <th scope="col">Minutes Away</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableData">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="headingFour"> Add Train </h4>
+            </div>
+            <div class = "col-12">
+            <form id="formStart">
+                <label class="form" for="nameInput">Train Name:</label>
+                <br>
+                <input type="text" id="nameInput">
+
+                <br>
+                <br>
+
+                <label class="form" for="destinationInput">Destination</label>
+                <br>
+                <input type="text" id="destinationInput">
+
+                <br>
+                <br>
+
+                <label class="form" for="firstTrainInput">First Train Time (HH:mm - military time):</label>
+                <br>
+                <input type="text" id="firstTrainInput">
+
+                <br>
+                <br>
+
+                <label class="form" for="frequencyInput">Frequency (in minutes):</label>
+                <br>
+                <input type="text" id="frequencyInput">
+                
+                <br>
+                <br>
+                  
+                <input class="btn btn-primary" id="addTrain" type="submit" value="Add Train">
+            </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/javascript.js"></script>
+</body>

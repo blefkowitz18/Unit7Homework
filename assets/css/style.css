@@ -1,0 +1,62 @@
+.background {
+    background-color: darkred;
+}
+
+.jumbotron {
+    background-color: aqua;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-responsive {
+    border: solid black 3px;
+}
+
+.headingFour {
+    color: whitesmoke;
+}
+
+.tableHead {
+    color: aqua;
+}
+
+#tableData {
+    color: whitesmoke;
+}
+
+#formStart{
+    color: aqua;
+    border: solid black 3px;
+}
+
+.form {
+    margin-left: 1%;
+}
+
+#nameInput {
+    margin-left: 1%;
+}
+
+#destinationInput {
+    margin-left: 1%;
+}
+
+#firstTrainInput {
+    margin-left: 1%;
+}
+
+#frequencyInput {
+    margin-left: 1%;
+}
+
+#addTrain {
+    background-color: aqua;
+    color: black;
+    margin-left: 1%;
+}
+
+#addTrain:hover {
+    background-color: black;
+    color: aqua;
+}
+
